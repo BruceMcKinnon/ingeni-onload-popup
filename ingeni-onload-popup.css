@@ -1,0 +1,47 @@
+@media screen and (min-width: 1020px) {
+	.reveal.large {
+		max-width: 55% !important;
+		margin-left: 30px !important;
+	}
+}
+
+#ingeniPopupModal {
+	background-color: #009cc6;
+	color: #fefefe;
+	padding: 80px 15px 15px;
+}
+@media screen and (min-width: 640px) {
+	#ingeniPopupModal {
+		padding: 15px;
+	}
+}
+#ingeniPopupModal:focus {
+	outline:0;
+}
+
+#ingeniPopupModal h3,
+#ingeniPopupModal p {
+	color: #fefefe;
+	font-weight: bold;
+	font-size: 120%;
+	text-align: center;
+	margin-bottom: 15px;
+}
+#ingeniPopupModal h3 {
+	font-size: 22px;
+	line-height: 30px;
+	margin-top: 15px;
+}
+#ingeniPopupModal a.button {
+	font-size: 18px;
+	margin-bottom:0;
+}
+#ingeniPopupModal a.button:hover {
+	background-color: #222729;
+	color: #fefefe;
+}
+
+.close-button {
+	border-width: 0 !important;
+	background-color: transparent !important;
+}
