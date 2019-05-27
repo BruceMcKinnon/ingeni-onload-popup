@@ -349,11 +349,6 @@ if ( !class_exists( 'IngeniOnloadPopup' ) ) {
 			$url = $siteurl . '/wp-content/plugins/' . basename(dirname(__FILE__)) . '/';
 			wp_enqueue_style( 'ingeni-popup-css', $url . 'ingeni-onload-popup.css' );
 		}
-		
-
-
-
-
 
 	}
 }
